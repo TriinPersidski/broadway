@@ -9,25 +9,27 @@
   </head>
 
   <body>
-<header>
-  <h1 class="main-banner">Broadway Design</h1>
-  <nav>
+
+<header class="main-banner">
+  <h1>Broadway Design</h1>
+  <nav class="menu">
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Process</a></li>
-      <li><a href="">Work</a></li>
-      <li><a href="">Team</a></li>
-      <li><a href="">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="main-process">
-  <h2>Our Process</h2>
-    <div class="item">
-      <img src="./resources/images/identify.svg" alt="identify"/>
-      <h3>Identify</h3>
-        <p>We focus on the most important details.</p>
+<main>
+  <div class="main-process">
+    <h2 id="process">Our Process</h2>
+      <div class="item">
+        <img src="./resources/images/identify.svg" alt="identify"/>
+        <h3>Identify</h3>
+          <p>We focus on the most important details.</p>
     </div>
 
     <div class="item">
@@ -43,24 +45,30 @@
     </div>
 
     <div class="main-work">
-      <h2 id="heading-background">Designed in New York</h2>
+      <h2 id="work">Designed in New York</h2>
         <h3>Portfolio</h3>
           <p>Coming Soon</p>
-        <h3>Team</h3>
+        <h3 id="team">Team</h3>
           <p>We're Hiring!</p>
-        <h3>Contact</h3>
+        <h3 id="contact">Contact</h3>
           <p>Phone: (555)-555-5555.</p>
           <p>E-mail: test@example.com</p>
           <p>Twitter: @test</p>
     </div>
-</div>
-
+  </div>
+<main>
 
 <footer>
-  <p>&copy Broadway 2016</p>
   <nav>
-   <a href="">Home</a>
+    <ul class="footer-nav">
+      <li id="copyright">&copy Broadway 2016</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 </footer>
-  </body>
+</body>
 </html>
